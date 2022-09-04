@@ -195,7 +195,6 @@ public class Main {
         char middleLeft = str.charAt(str.length() / 2 -1);
         char middleRight = str.charAt(str.length() / 2);
             return str.substring(0, 0) + middleLeft + middleRight;
-
         }
         return null;
     }
